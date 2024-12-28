@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "pricings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "popular": {
+      "type": "boolean"
+    },
+    "tittleOption": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "options": {
+      "type": "json"
+    }
+  }
+}
