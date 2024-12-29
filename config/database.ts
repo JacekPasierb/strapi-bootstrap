@@ -6,7 +6,7 @@ export default ({ env }) => {
 
   return {
     connection: {
-      client, // Użyj klienta PostgreSQL
+      client: 'postgres', // Użyj klienta PostgreSQL
       connection: {
         connectionString: env('DATABASE_URL'), // Użyj zmiennej DATABASE_URL
       },
