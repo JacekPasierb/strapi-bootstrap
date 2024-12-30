@@ -5,7 +5,7 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://front-strapi.netlify.app"], // Twoja domena Netlify
+      origin: ["https://front-strapig.netlify.app"], // Twoja domena Netlify
       methods: ["GET", "POST", "PUT", "DELETE"], // Dozwolone metody HTTP
       headers: "*", // Dozwolone nagłówki
     },
